@@ -69,11 +69,21 @@ fun guessGame() {
     var num: Int
     var i = 0
     var j = 0
+    var array: Array<Int>
     println("Zgadnij jaką liczbę dla Ciebie wylosowałem z zakresu od 1 do 10")
     do {
         i++
         print("Podaj swoją liczbę: ")
         num = readln().toInt()
+        
+        //Add number to array and if number==number i--
+         // for(j in array) {
+        //if() {
+        //i--
+        //}
+        //}
+        
+        
             if (num >= 11) {
                 println("Podany numer wykracza poza zakres!")
             } else if (n > num) {
